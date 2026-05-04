@@ -1,4 +1,5 @@
 ﻿using Dsw2026Ej8.Domain;
+using Dsw2026Ej8.Problema_6;
 
 namespace Dsw2026Ej8
 {
@@ -29,6 +30,8 @@ namespace Dsw2026Ej8
             caso1 = p5.ObtenerImporteFinal(s2);
             Console.WriteLine(caso1);
 
+            var p6 = new Problema6();
+            Console.WriteLine(p6.NormalizarCodigoProducto(" ab 123 x "));
 
 
 
